@@ -1,0 +1,46 @@
+[
+    {
+        "titulo": "Descubrimiento Científico Revolucionario",
+        "contenido": "Científicos han desarrollado una nueva tecnología para la energía renovable."
+    },
+    {
+        "titulo": "Evento Deportivo Increíble",
+        "contenido": "El equipo local ganó el campeonato en un partido emocionante."
+    },
+    {
+        "titulo": "Avance en la Inteligencia Artificial",
+        "contenido": "Un nuevo algoritmo de IA está cambiando la industria tecnológica."
+    },
+    {
+        "titulo": "Nuevo Smartphone Revolucionario",
+        "contenido": "Una empresa tecnológica ha presentado un dispositivo con una batería que dura una semana."
+    },
+    {
+        "titulo": "Cambio Climático",
+        "contenido": "Expertos advierten sobre el impacto del calentamiento global en la biodiversidad."
+    },
+    {
+        "titulo": "Exploración Espacial",
+        "contenido": "La NASA anuncia una nueva misión tripulada a Marte para el año 2030."
+    },
+    {
+        "titulo": "Inteligencia Artificial en la Medicina",
+        "contenido": "Los médicos están utilizando IA para diagnosticar enfermedades con mayor precisión."
+    },
+    {
+        "titulo": "Crisis Económica Global",
+        "contenido": "El mercado financiero enfrenta una caída significativa debido a la incertidumbre global."
+    },
+    {
+        "titulo": "Cine y Entretenimiento",
+        "contenido": "Una nueva película de ciencia ficción rompe récords de taquilla en su primera semana."
+    },
+    {
+        "titulo": "Redes Sociales",
+        "contenido": "Una nueva plataforma social está ganando popularidad entre los jóvenes."
+    },
+    {
+        "titulo": "Avances en Energía Renovable",
+        "contenido": "Científicos desarrollan un nuevo tipo de panel solar con mayor eficiencia."
+    }
+]

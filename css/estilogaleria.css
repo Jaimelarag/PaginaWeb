@@ -1,0 +1,159 @@
+/* Reset global */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Estilo del header */
+header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(34, 102, 102);
+}
+
+header nav a img {
+    width: 60%;
+}
+
+header nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 30px;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    color: rgb(0, 51, 51);
+    font-style: italic;
+}
+
+/* Body de la página */
+
+/* Estilo para el título de la galería */
+header h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    text-decoration: underline; /* Subraya el texto */
+    margin: 20px 0; /* Añade espacio arriba y abajo del título */
+    font-size: 2.5rem; /* Puedes ajustar el tamaño de la fuente según prefieras */
+    font-weight: bold; /* Establece el grosor de la fuente (opcional) */
+    color: #333; /* Color del texto (puedes cambiarlo si lo prefieres) */
+}
+
+body {
+    background-color: #ffffff;
+    position: relative;
+    padding-bottom: 4em;
+    min-height: 100vh;
+}
+
+/* Estilo para el contenedor del slider */
+.slider-container {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Contenedor que mueve las imágenes */
+.contenedor-galeria {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.imagen-galeria {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* Estilo para las flechas */
+button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+    transform: translateY(-50%); /* Asegura que las flechas estén centradas verticalmente */
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Galería en grid */
+#contenedor-galeria {
+    display: flex;
+    gap: 10px;
+}
+
+.imagen-galeria {
+    width: 100%; /* Las imágenes tienen el 100% del ancho del contenedor */
+    height: 700px; /* Altura fija para todas las imágenes */
+    object-fit: cover;  /* Ajuste de imagen */
+}
+
+
+
+/* Estilo del footer */
+footer {
+    background-color: rgb(34, 102, 102);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer div img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+footer div a {
+    font-style: italic;
+    color: aliceblue;
+}
+
+main div a {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* Saber en qué página estamos */
+.activo {
+    color: aliceblue;
+}

@@ -1,0 +1,140 @@
+/*Menú de Navegación*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+header nav{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(34, 102, 102);
+}
+header nav a img{
+  width: 60%;
+  
+}
+header nav ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav ul li{
+  margin: 0 30px;
+}
+header nav ul li a{
+  text-transform: uppercase;
+color: rgb(0, 51, 51);
+font-style: italic;
+}
+
+  /*Body de la página principal*/
+  body {
+    background-color: rgb(255, 255, 255); 
+    position: relative;
+    padding-bottom: 4em;
+    min-height: 100vh;    
+  }
+  body section{
+    padding: 3px 10px;
+    border: rgb(0, 51, 51) 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  body section {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(0, 51, 51);
+    margin: 20px;
+  }
+  body section img{
+    border: 2px solid rgb(102, 153, 153);
+    height: 225px;
+    width: 225px;
+  
+  }
+  body section p{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  body section h2{
+    text-decoration: underline;
+  }
+
+  .noticia {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+  /*Footer Con Redes Sociales*/
+  footer{
+  background-color: rgb(34, 102, 102);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  }
+  footer div{ 
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 10px;
+    
+  }
+  footer div img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25px;
+    height: 25px;
+   }
+   footer div a{
+    font-style: italic;
+    color: aliceblue;
+   }
+
+
+  /*Saber en que página estamos*/
+  .activo{
+    color: aliceblue;
+  }
+  /* CSS - Cascading Style Sheet */
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=13i0u0kllllaFw0g0qFqFg0w0aF */
+
+
+
+/* As hex codes */
+
+.color-primary-0 { color: #226666 }	/* Main Primary color */
+.color-primary-1 { color: #669999 }
+.color-primary-2 { color: #407F7F }
+.color-primary-3 { color: #0D4D4D }
+.color-primary-4 { color: #003333 }
+
+
+
+/* As RGBa codes */
+
+.rgba-primary-0 { color: rgba( 34,102,102,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(102,153,153,1) }
+.rgba-primary-2 { color: rgba( 64,127,127,1) }
+.rgba-primary-3 { color: rgba( 13, 77, 77,1) }
+.rgba-primary-4 { color: rgba(  0, 51, 51,1) }
+
+
+
+
+  
+
+
