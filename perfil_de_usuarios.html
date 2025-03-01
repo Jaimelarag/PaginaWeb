@@ -1,0 +1,45 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario</title>
+</head>
+<body>
+    <h2>Perfil de Usuario</h2>
+    <form method="POST" action="perfil.php">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" value="<?php echo htmlspecialchars($user['nombre']); ?>" required><br>
+        
+        <label>Apellidos:</label>
+        <input type="text" name="apellidos" value="<?php echo htmlspecialchars($user['apellidos']); ?>" required><br>
+        
+        <label>Email:</label>
+        <input type="email" name="email" value="<?php echo htmlspecialchars($user['email']); ?>" readonly><br>
+        
+        <label>Teléfono:</label>
+        <input type="text" name="telefono" value="<?php echo htmlspecialchars($user['telefono']); ?>" required><br>
+        
+        <label>Dirección:</label>
+        <input type="text" name="direccion" value="<?php echo htmlspecialchars($user['direccion']); ?>"><br>
+        
+        <label>Sexo:</label>
+        <select name="sexo">
+            <option value="Masculino" <?php echo ($user['sexo'] == 'Masculino') ? 'selected' : ''; ?>>Masculino</option>
+            <option value="Femenino" <?php echo ($user['sexo'] == 'Femenino') ? 'selected' : ''; ?>>Femenino</option>
+        </select><br>
+        
+        <button type="submit" name="actualizar">Actualizar Perfil</button>
+    </form>
+    
+    <h2>Cambiar Contraseña</h2>
+    <form method="POST" action="perfil.php">
+        <label>Contraseña Actual:</label>
+        <input type="password" name="password_actual" required><br>
+        
+        <label>Nueva Contraseña:</label>
+        <input type="password" name="password_nueva" required><br>
+        
+        <button type="submit" name="cambiar_password">Cambiar Contraseña</button>
+    </form>
+</body>
+</html>

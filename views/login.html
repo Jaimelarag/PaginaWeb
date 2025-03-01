@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilopresupuesto.css">
+    <link rel="icon" type="image/png" href="../assets/favicon/favicon.png" >
+    <title>Yesos Hnos. Lara</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+            <img class="logo1" src="../images/logodef.png" alt="Logo1">
+            </a>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./login.html" class="activo">Login</a></li>
+                <li><a href="./registro.html" >Registro</a></li>
+                <li><a href="./producto.html">Producto</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <li><a href="./presupuesto.html">Presupuesto</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>    
+            </ul>
+        </nav>
+    </header>
+
+    <div class="login-form">
+        <h2>Iniciar sesión</h2>
+        <form action="../php/login.php" method="POST">
+            <div class="input-group">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+
+        <!-- Hipervínculo para registro -->
+        <p>¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a></p>
+
+        <!-- Mensaje de error o éxito (se mostraría dinámicamente en caso de error o éxito) -->
+        <div id="error-message" style="color: red; display: none;">
+            <p>Datos incorrectos. Intenta nuevamente.</p>
+        </div>
+        <div id="success-message" style="color: green; display: none;">
+            <p>Inicio de sesión exitoso. Redirigiendo...</p>
+        </div>
+    </div>
+    
+
+
+    <footer>
+        <!-- footer con redes sociales -->
+        <div>
+        <a href="https://www.facebook.com/?locale=es_ES"><img src="../images/logoface.png" width="512" alt="LogoFace" ></a>
+        <a href="https://www.instagram.com/"><img src="../images/logoinsta.png" width="512" alt="LogoInsta"></a>
+        <a href="https://twitter.com/home"><img src="../images/logotwiter2.png" width="512" alt="LogoTwitter"></a>
+        <a href="#">Aviso Legal</a>
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Politica De Cookies</a>
+        </div>
+    </footer>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
